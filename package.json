@@ -1,15 +1,12 @@
 {
-  "name": "rolldown-starter",
+  "name": "test-rolldown-aws-sdk-js-v3-esm-min-bundle",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "RD_LOG=error rolldown -c ./rolldown.config.mjs"
-  },
-  "stackblitz": {
-    "installDependencies": false,
-    "startCommand": "pnpm install && pnpm build"
+    "build": "rolldown -c"
   },
   "dependencies": {
-    "rolldown": "npm:@rolldown/browser@latest"
+    "@aws-sdk/client-sts": "3.946.0",
+    "rolldown": "1.0.0-beta.53"
   }
 }

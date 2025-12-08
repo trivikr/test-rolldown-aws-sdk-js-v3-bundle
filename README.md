@@ -1,3 +1,8 @@
-# rolldown-starter-stackblitz
+# test-rolldown-aws-sdk-js-v3-esm-min-bundle
 
-[![rolldown-starter-stackblitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/github/rolldown/rolldown-starter-stackblitz)
+Repro for issue noticed in https://github.com/trivikr/find-aws-sdk-js-v2-usage/actions/runs/20020773491/job/57407001593?pr=13
+
+## Reproduction
+
+- Run `npm i` to install dependencies.
+- Run `npm run build` to create `bundle.js` using rolldown.
