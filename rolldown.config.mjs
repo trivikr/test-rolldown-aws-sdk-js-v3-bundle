@@ -6,6 +6,6 @@ export default defineConfig({
     file: "./bundle.js",
     format: "cjs",
     inlineDynamicImports: true,
-    minify: true,
   },
+  logLevel: "debug",
 });
