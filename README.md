@@ -6,7 +6,7 @@ Repro for issue noticed in https://github.com/trivikr/find-aws-sdk-js-v2-usage/a
 
 - Run `npm i` to install dependencies.
 - Run `./test-build.sh` to run `npm run build` and fail when the generated bundle has a diff.
-  - The git diff will get detected in some iteration, ranging from 1 to 10.
+  - The git diff will not be different, and the shell script will keep running.
 
 ### Example run
 
